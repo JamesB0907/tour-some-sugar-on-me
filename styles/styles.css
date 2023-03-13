@@ -1,0 +1,46 @@
+.details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.detail--column {
+    flex-basis: 24%;
+    margin: 0 2rem;
+}
+
+.bookings {
+    padding: 1rem 5rem;
+}
+
+.bookings li {
+    margin: 10px;
+}
+
+.venueContainer {
+display: table;
+margin: 0 auto;
+}
+
+#venue_details {
+min-width: 696px;
+list-style:none;
+padding-top: 20px
+}
+
+#venue_details li {
+display:inline;
+}
+
+.bandContainer {
+display: table;
+
+}
+    
+ #band_details {
+list-style:none;
+padding-top: 20px
+}
+    
+#band_details li {
+display:inline;
+}
